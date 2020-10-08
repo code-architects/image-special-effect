@@ -1,0 +1,24 @@
+* {
+  	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000
+}
+.play {
+	height: 700px;
+    /* Flexible Height to the container */
+    
+	text-align: justify;
+	width: 100%;
+	font-size: 5px;
+	line-height: 5px;
+	overflow: hidden;
+	background: url('image.jpg');
+	background-position: center center;
+	background-size: auto;
+    background-repeat: no-repeat;
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0.15);
+}
